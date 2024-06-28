@@ -79,13 +79,13 @@ backBtn.addEventListener("click", () => {
 function showResult() {
   let message = "";
   if (score >= -15 && score < -5) {
-      message = "You are doing fine.";
-  } else if (score >= -5 && score < 5) {
-      message = "You are little stressed.";
-  } else if (score >= 5 && score < 15) {
-      message = "You are moderately depressed.";
-  } else {
       message = "You are severely depressed.";
+  } else if (score >= -5 && score < 5) {
+      message = "You are moderately depressed.";
+  } else if (score >= 5 && score < 15) {
+      message = "You are little stressed.";
+  } else {
+      message = "You are doing fine.";
   }
   resultEl.textContent = message;
   resultEl.style.animation = "fadeIn 1s";
