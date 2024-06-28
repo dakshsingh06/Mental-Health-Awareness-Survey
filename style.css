@@ -2,12 +2,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(to bottom, #032B44, #021331); /* dark ocean blue to ocean blue */
-  position: relative; /* add this to make the video background work */
+  background-image: linear-gradient(to bottom, #032B44, #021331); 
+  position: relative; 
 }
 
 header {
-  background-image: linear-gradient(to bottom, #34C759, #2E865F); /* sea green to ocean green */
+  background-image: linear-gradient(to bottom, #34C759, #2E865F); 
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -21,15 +21,15 @@ main {
 }
 
 .question-box {
-    background-image: linear-gradient(to bottom,  #8BC34A,#C6F7D0); /* light green to sea green */
+    background-image: linear-gradient(to bottom,  #8BC34A,#C6F7D0); 
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    width: 500px; /* fixed width */
-    max-width: 500px; /* fixed max width */
-    height: 300px; /* fixed height */
-    max-height: 300px; /* fixed max height */
-    overflow-y: auto; /* add scrollbar if content exceeds height */
+    width: 500px; 
+    max-width: 500px;
+    height: 300px;
+    max-height: 300px; 
+    overflow-y: auto; 
 }
 
 #question {
@@ -41,8 +41,8 @@ main {
     list-style: none;
     padding: 0;
     margin: 0;
-    height: 200px; /* fixed height */
-    overflow-y: auto; /* add scrollbar if content exceeds height */
+    height: 200px; 
+    overflow-y: auto; 
 }
 
 #options li {
@@ -54,7 +54,7 @@ main {
 }
 
 #next-btn, #back-btn {
-  background-color: #4CAF50; /* ocean green */
+  background-color: #4CAF50; 
   border-radius: 25px;
   color: #fff;
   border: none;
@@ -64,7 +64,7 @@ main {
 }
 
 #next-btn:hover, #back-btn:hover {
-  background-color: #3e8e41; /* darker ocean green */
+  background-color: #3e8e41; 
 }
 
 #result {
@@ -76,7 +76,7 @@ main {
 }
 
 footer {
-  background-image: linear-gradient(to bottom, #2E865F, #34C759); /* ocean green to sea green */
+  background-image: linear-gradient(to bottom, #2E865F, #34C759); 
   color: #fff;
   padding: 10px;
   text-align: center;
@@ -92,5 +92,5 @@ footer {
   height: 120%;
   object-fit: cover;
   position: fixed;
-  z-index: -1; /* make sure the video is behind the content */
+  z-index: -1; 
 }
