@@ -26,3 +26,6 @@ We welcome contributions to enhance this project. If you have suggestions for ne
 ## **Disclaimer**
 
 This survey is not a substitute for professional mental health advice, diagnosis, or treatment. The results provided by this survey are for informational purposes only and should not be considered as medical advice. If you have concerns about your mental health, please consult with a qualified healthcare provider.
+
+## **Url to the link**
+link- https://main--superlative-bunny-8acdac.netlify.app/
